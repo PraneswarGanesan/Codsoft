@@ -1,0 +1,164 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(29, 20, 69);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:  0 23px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+  color: white;
+  
+
+}
+nav ul li a:hover{
+    
+  color: lavender;
+
+  
+
+}
+.left_nav
+{
+    font-size: 1.6rem;
+}
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 22vh 0;
+}
+.first_section div{
+    width: 30%;
+    
+
+}
+.left_section{
+   
+    font-size: 2.5rem;
+}
+
+.right_section img{
+    width: 80%;
+    
+}
+.purple{
+   color:blueviolet ;
+}
+#element{
+    color: rgb(170,107,228);
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+
+}
+.text-grey{
+    color: grey;
+}
+.secondSection .box{
+    background: white;
+     width: 76vw;
+      height: 2px;
+       margin: 56px 0;
+       display: flex;
+
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 35px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+position: relative;
+top: 75px;
+width: 150px;
+font-size: 14px;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size: 9px;
+
+}
+footer{
+    background: rgb(23, 22, 24);
+    
+
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.footer li{
+    list-style: none;
+
+}
+.footer >div{
+    width: 115px;
+}
+.footer-rights
+{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}
+.footer .footer-second .btn-transparent {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: azure;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 6px 4px;
+  }
+  
+  .footer .footer-second .btn-transparent:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent; 
+    border: 1px solid azure; 
+  }
+  
+  .footer .footer-second .btn-transparent:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+.footer .footer-third .img-bottom{
+    padding-top: 10px;
+width: 120px;
+
+}
+.footer .footer-fourth .img-git{
+    padding-top: 10px;
+width: 120px;
+border: white;
+
+}
+  .footer .footer-second .img-leet{
+    padding-top: 10px;
+    width: 60px;
+  }
