@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8; /* Light gray background for a premium feel */
+    font-family: "Poppins", sans-serif;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.headbar {
+    height: 110px;
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 80px;
+    background: #3498db; /* Blue background color for the headbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+.headbar:hover {
+    background: #2980b9; /* Darker blue on hover */
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff; /* White text color for the heading */
+}
+
+.par {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #34495e; /* Darker blue text color for the paragraph */
+}
+
+.container {
+    margin-top: 50px;
+    width: 40%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display #screen {
+    color: #333; 
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #f8f8f8; /* Light gray background for the screen */
+    border-radius: 6px;
+    box-shadow: inset 2px 2px 2px #aaaaaa, inset -2px -2px 2px #dddddd; /* Lighter shadows */
+}
+
+.buttons {
+    margin-top: 1.7em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons .row button {
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 6px #aaaaaa, 3px 3px 6px #dddddd; /* Lighter shadows */
+    background: #3498db; /* Blue background color for buttons */
+    color: #ffffff; /* White text color for buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttons .row button:hover {
+    background: #2980b9; /* Darker blue on hover */
+}
+
+#eval {
+    background: grey; /* Gray background color for the equal button */
+}
+
+#ac {
+    background: grey; /* Gray background color for AC button */
+}
+
+#ce {
+    background: grey; /* Gray background color for CE button */
+}
