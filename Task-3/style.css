@@ -1,64 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-body {
+
+body{
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f8f8f8; /* Light gray background for a premium feel */
-    font-family: "Poppins", sans-serif;
+    background: rgb(255, 255, 255);
+    font-family: "Poppins",sans-serif;
     flex-direction: column;
-    height: 100vh;
-}
+    
 
-.headbar {
+}
+.headbar{
     height: 110px;
     width: 40%;
     border-radius: 5px;
     margin-top: 80px;
-    background: #3498db; /* Blue background color for the headbar */
+    background: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Lighter shadow */
-}
+    background: rgb(0, 162, 255);
 
-.headbar:hover {
-    background: #2980b9; /* Darker blue on hover */
-    cursor: pointer;
 }
+.heading
+{
 
-.heading {
     display: flex;
     align-items: center;
     height: 60px;
-    margin-top: 10px;
+    margin-top: 30px;
     text-transform: uppercase;
-    color: #ffffff; /* White text color for the heading */
+    color: white;
 }
 
-.par {
+.par{
     display: flex;
     align-items: center;
     height: 60px;
+
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: #34495e; /* Darker blue text color for the paragraph */
+    color: rgb(255, 255, 255);
+    
 }
 
-.container {
+.container{
     margin-top: 50px;
     width: 40%;
     height: 45vh;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
-
-.display #screen {
-    color: #333; 
+.display #screen{
+    color: white;
     width: 97%;
     height: 70px;
     font-size: 35px;
@@ -66,21 +65,23 @@ body {
     border: none;
     text-align: right;
     padding-right: .5em;
-    background: #f8f8f8; /* Light gray background for the screen */
+	color: black;
+    background: white;
     border-radius: 6px;
-    box-shadow: inset 2px 2px 2px #aaaaaa, inset -2px -2px 2px #dddddd; /* Lighter shadows */
-}
+    box-shadow: inset 8px 8px 8px #eaeaea,
+                inset -8px -8px 8px #eaeaea;
 
+}
 .buttons {
-    margin-top: 1.7em;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    
+	margin-top: 1.7em;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
-
-.buttons .row button {
+.buttons .row button{
     cursor: pointer;
     width: 80px;
     height: 30px;
@@ -88,25 +89,18 @@ body {
     border: none;
     outline: none;
     margin: 5px;
-    border-radius: 4px;
-    box-shadow: 3px 3px 6px #aaaaaa, 3px 3px 6px #dddddd; /* Lighter shadows */
-    background: #3498db; /* Blue background color for buttons */
-    color: #ffffff; /* White text color for buttons */
-    transition: background-color 0.3s, color 0.3s;
-}
+	border-radius: 4px;
+    box-shadow: 3px 3px 6px #aaaaaa, 3px 3px 6px #dddddd; 
+            background: #0099ff; 
+            color: #ffffff; 
+            transition: background-color 0.3s, color 0.3s;
 
-.buttons .row button:hover {
-    background: #2980b9; /* Darker blue on hover */
-}
 
-#eval {
-    background: grey; /* Gray background color for the equal button */
 }
+.buttons .row button:hover{
+    background: rgb(0, 119, 238);
+    color: white;
+    border: solid 2px rgb(90, 84, 84);
 
-#ac {
-    background: grey; /* Gray background color for AC button */
 }
-
-#ce {
-    background: grey; /* Gray background color for CE button */
-}
+	
